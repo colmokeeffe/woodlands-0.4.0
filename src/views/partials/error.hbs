@@ -1,0 +1,10 @@
+{{#if errors}}
+  <div class="ui secondary segment">
+    <p> There was a problem... </p>
+    <ul>
+      {{#each errors}}
+        <li>{{message}}</li>
+      {{/each}}
+    </ul>
+  </div>
+{{/if}}

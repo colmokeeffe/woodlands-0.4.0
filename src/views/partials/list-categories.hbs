@@ -1,0 +1,15 @@
+{{#each categories}}
+
+ <div class="ui tertiary segment">
+   <h1>
+      {{title}}
+       </h1>
+    <a href="/category/{{_id}}" class="ui green button">
+        <i class="fas fa-folder-open"></i>
+    </a>
+    <a href="/dashboard/deletecategory/{{_id}}" class="ui red button">
+      <i class="fas fa-trash"></i>
+    </a>
+
+  </div>
+{{/each}}

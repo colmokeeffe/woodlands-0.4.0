@@ -1,0 +1,20 @@
+{{> menu}}
+
+<form class="box"  action="/wood/{{category._id}}/updatetrack/{{wood._id}}" method="POST">
+  <label>Update Wood Details:</label>
+  <div class="field is-horizontal">
+    <div class="field-body">
+      <div class="field">
+        <input class="input" type="text" name="title", value="{{wood.title}}">
+      </div>
+      <div class="field">
+        <input class="input" type="text" name="artist" value="{{wood.artist}}">
+      </div>
+      <div class="field">
+        <input class="input" type="text"  name="duration" value="{{wood.duration}}">
+      </div>
+    </div>
+  </div>
+  <button class="button is-primary">Update Wood</button>
+</form>
+

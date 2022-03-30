@@ -1,0 +1,28 @@
+{
+  "woods": [
+    {
+      "title": "Donadea Woods",
+      "description": "Autumnal walks on copper trails beside a murky lake ",
+      "latitude": 50.00000,
+      "longitude": -5.00000,
+      "_id": "6205536e-65ce-4bb3-ad92-e81abdc53848",
+      "categoryid": "df11a3d4-0644-42ee-a38e-853ef2a860b1"
+    },
+    {
+      "title": "Carragh Woods",
+      "description": "Summer walks on dusty trails beside a shimmering lake ",
+      "latitude": 51.00000,
+      "longitude": -5.00000,
+      "_id": "6205536e-65ce-4bb3-ad92-e81abdc53849",
+      "categoryid": "df11a3d4-0644-42ee-a38e-853ef2a860b1"
+    },
+    {
+      "title": "Blessington Woods",
+      "description": "Springtime walks on marshy trails beside a frozen lake ",
+      "latitude": 52.00000,
+      "longitude": -5.00000,
+      "_id": "6205536e-65ce-4bb3-ad92-e81abdc53850",
+      "categoryid": "df11a3d4-0644-42ee-a38e-853ef2a860b1"
+    }
+  ]
+}
