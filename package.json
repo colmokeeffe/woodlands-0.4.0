@@ -1,9 +1,12 @@
 {
   "name": "woodlands",
-  "version": "0.10.0",
+  "version": "0.4.0",
   "description": "An application for the HDip in Computing, WIT",
-  "main": "hello.js",
+  "main": "index.js",
   "type": "module",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "node src/server.js",
     "dev": "./node_modules/.bin/nodemon src/server.js --ignore 'src/models/json/*.json'",
